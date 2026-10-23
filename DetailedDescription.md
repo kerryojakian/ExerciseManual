@@ -19,8 +19,15 @@ The giant data base of problems (in the file ExerciseData/ExerciseManual.tex) is
 - As a text file: Basically, a listing of the exercise IDs, along with surrounding Latex
 - As a Latex file: Basically, a series of \ex specs, along with surrounding Latex
 
+The above LaTex file is a somewhat open to how it is written, but needs the following (as illustrated in the ExampleAssignment.tex):
+- In the header, it must have the input command: \input{../ExerciseData/HeaderExerciseFileStandard.tex}, noting that the path is set assuming that when processing is desired, the file is put in the folder InputFilesDefault (see directly below); or the path can be changed as desired.
+- The exercises should be placed within an enumerate environment.
+- The header should include the following six options, each of which can be commented out in order to make it not operational:\def \showcodes{}, \def \showspace{}, \def \showsolutions{}, \def \showrubric{}, \def \showtags{} 
+
 A (slightly awkward) aspect this package is that for the creation of files, one typically copies the initial file to the folder InputFilesDefault, then after running the appropriate protocol, the result will be in the folder OutputFilesDefault. Thus for carrying out an operation, you need to move it to InputFilesDefault first (perhaps 
 from OutputFilesDefault).  This can all be avoided, as you are allowed to override where the programs read from and where they write to.
+
+## Running MAIN.py
 
 When MAIN.py is executed it offers a menu of options, and continues to execute until you opt to quit.  The options are as follows:
 
@@ -34,8 +41,9 @@ When MAIN.py is executed it offers a menu of options, and continues to execute u
 >
 > E. Select exercises from exercise bank: By choosing a series of tags, you can choose a subset of the problems from the exercise manual.  This is useful, since the exercise manual is large, and growing.
 >
-> F. Create solution file: Creates a solution file ...
+> F. Create solution file: Creates a solution file given an existing LaTex exercise file.  You need to have an API
+> key for OpenAI. It will create a duplicate of the existing file, leaving existing solutions untouched, only adding solutions for the problems that have an empty solution field.
 > 
-> G. Create new problem set with same kinds of problems: Creates a doppelganger problem set ...
+> G. Create new problem set with same kinds of problems: Creates a doppelganger problem set of a given LaTex exercise file - that is it creates a new problem set with similar problems.  It does this with OpenAI, so  an API key is also needed for this.
 
 
