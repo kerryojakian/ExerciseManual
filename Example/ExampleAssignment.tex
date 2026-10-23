@@ -1,0 +1,203 @@
+\documentclass[12pt]{article}
+
+% PAGE FORMAT
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.5in
+\textheight 8.5in
+\topmargin -0.25in
+
+% FOR TOGGLING ON CHOICES OF WHAT TO PRINT
+\def \showcodes{}     % Comment out to NOT see codes
+%\def \showspace{}     % Comment out to NOT have space after problems.
+%\def \showsolutions{} % Comment out to NOT see solutions
+%\def \showrubric{}     % Comment out to NOT see grading rubric
+\def \showtags{} % Comment out to NOT see tags
+%%%%
+% NOTE: showsolutions negates effects of: showrubric and showspace
+% NOTE: showrubric negates effects of: showspace
+
+
+% KEY HEADER FILE
+\input{../ExerciseData/HeaderExerciseFileStandard.tex}
+
+% Or put hard link to your file something like in the following.
+%\input{C:/Users/[NAME]/ ... /ExerciseData/HeaderExerciseFileStandard.tex}   
+
+
+
+\begin{document}
+
+\noindent
+{\textbf{Assignment \# .....}}\\
+
+\noindent
+{\bf Instructions:} .....
+
+
+
+
+\begin{enumerate}
+
+ \ex
+{\code{DISCx25x08x15x009}}{10}
+{ 
+ How many rows appear in a truth table for each of these
+compound propositions?
+
+\begin{multicols}{2}
+\begin{enumerate}
+
+\item $X \lor \neg X$
+
+\item $A \rightarrow (A \land \neg B)$
+
+\item $(P \lor \neg Q) \leftrightarrow ( (P \land Q) \rightarrow \neg P)$
+
+\item $(A \lor B) \rightarrow (A \lor B \land \neg C)$
+
+\end{enumerate}
+\end{multicols}
+
+
+}{
+
+ 
+
+
+\begin{align*}
+\text{1. For } X \lor \neg X:& \quad \text{1 variable } (X) \Rightarrow 2^1 = 2 \text{ rows} \\
+\text{2. For } A \rightarrow (A \land \neg B):& \quad \text{2 variables } (A, B) \Rightarrow 2^2 = 4 \text{ rows} \\
+\text{3. For } (P \lor \neg Q) \leftrightarrow ( (P \land Q) \rightarrow \neg P):& \quad \text{2 variables } (P, Q) \Rightarrow 2^2 = 4 \text{ rows} \\
+\text{4. For } (A \lor B) \rightarrow (A \lor B \land \neg C):& \quad \text{3 variables } (A, B, C) \Rightarrow 2^3 = 8 \text{ rows}
+\end{align*}
+
+}{}{topics: DISC PROPLOGIC}
+
+
+ \ex
+{\code{DISCx25x08x15x010}}{20}
+{ 
+ Construct a truth table for the following proposition:
+$X \lor \neg X$
+
+
+}{
+
+ 
+$
+\begin{array}{|c|c|c|}
+\hline
+X & \neg X & X \lor \neg X \\
+\hline
+\text{T} & \text{F} & \text{T} \\
+\text{F} & \text{T} & \text{T} \\
+\hline
+\end{array}
+$
+}{}{topics: DISC PROPLOGIC}
+
+
+
+ \ex
+{\code{DISCx25x09x11x001}}{30}
+{ 
+ Construct a truth table for the following proposition and state whether it is a tautology, contradiction, or contingency:
+$(X \land \neg Y) \rightarrow (\neg Y)$
+
+
+}{
+
+ 
+
+\[
+\begin{array}{c|c|c|c|c}
+X & Y & \neg Y & X \land \neg Y & (X \land \neg Y) \rightarrow \neg Y \\
+\hline
+\text{T} & \text{T} & \text{F} & \text{F} & \text{T} \\
+\text{T} & \text{F} & \text{T} & \text{T} & \text{T} \\
+\text{F} & \text{T} & \text{F} & \text{F} & \text{T} \\
+\text{F} & \text{F} & \text{T} & \text{F} & \text{T} \\
+\end{array}
+\]
+
+$(X \land \neg Y) \rightarrow (\neg Y)$ is a tautology.
+}{}{type: TEST , topics: DISC PROPLOGIC}
+
+
+
+
+ \ex
+{\code{QUANTx25x08x18x007}}{20}
+{  Determine the truth value of each of these statements if
+the domain consists of all rational numbers.  In
+both cases, what if we changed the domain to be just the integers?
+
+\begin{multicols}{2} 
+\begin{enumerate}
+
+\item $\forall x \exists y \ x \cdot y = 1$
+
+\item  $\forall x (x > 0 \rightarrow (x - 3) > 0 )$
+
+
+
+\end{enumerate}
+\end{multicols} 
+
+}{
+
+ 
+
+1. For the domain of rational numbers:
+
+- Statement: $\forall x \exists y \ x \cdot y = 1$
+
+- Truth value: True, since for any rational number $x$, there exists a rational $y = \frac{1}{x}$ such that $x \cdot y = 1$.
+
+2. For the domain of integers:
+
+- Statement: $\forall x \exists y \ x \cdot y = 1$
+
+- Truth value: False, since for $x = 0$, there is no integer $y$ such that $0 \cdot y = 1$.
+
+3. For the domain of rational numbers and integers:
+
+- Statement: $\forall x (x > 0 \rightarrow (x - 3) > 0 )$
+
+- Truth value: False, since when $x = 1$, $x > 0$ but $(x - 3) = -2 \not> 0$.
+}{}{topics: DISC QUANT}
+
+
+ \ex
+{\code{QUANTx26x02x04x001}}{20}
+{  Determine the truth value of each of these statements if
+the domain consists of all integers
+
+\begin{multicols}{2} 
+\begin{enumerate}
+
+
+\item $\exists u \forall x \  x < \sqrt{u}$
+
+\item $\forall x \exists u  \   x < \sqrt{u} $
+
+
+\end{enumerate}
+\end{multicols} 
+
+}{
+
+ 
+
+$\exists u \forall x \  x < \sqrt{u}$ is false.
+
+$\forall x \exists u \  x < \sqrt{u}$ is true.
+}{}{type: HW , topics: DISC QUANT}
+
+
+
+
+
+\end{enumerate} 
+\end{document}
