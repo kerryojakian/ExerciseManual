@@ -3,8 +3,8 @@
 Here I go beyond the ReadMe file to describe the details on how to use this package.
 
 To use it, download all the files, keeping the existing file structure and names.
-In order to use it some functionality assumes the OpenAI package is installed (install it or comment out those imports).
-Then run the program MAIN.py which is the top level program calling the other programs.  To understand what is going on, some terminology is in order.
+In order to use it, some functionality assumes the OpenAI package is installed for API calls to it (install it or comment out those imports).
+Then run the program *MAIN.py* which is the top level program calling the other programs.  To understand what is going on, some terminology is in order.
 
 First, each exercise in a Latex file is expressed as follows:
 > \ex{\code{#1}}{#2}{#3}{#4}{#5}{#6}, where
@@ -13,9 +13,9 @@ First, each exercise in a Latex file is expressed as follows:
 - #3 is the actual Latex code of the exercise
 - #4 is the solution for the problem if it exists
 - #5 is a rubric for grading the problem (to date, this is almost universally blank ...)
-- #6 is the sequence of tags describing the problem type and categories
+- #6 is the sequence of tags describing the problem type and categories (can be left blank)
 
-The giant data base of problems is just a listing of "\ex" specs.  A problem set, or test, is then just some subset of these problems.  The problem sets can be specified by one of two file types:
+The giant data base of problems (in the file ExerciseData/ExerciseManual.tex) is just a listing of "\ex" specs, along with some section information for a table of contents.  A problem set, or test, is then just some subset of these problems.  The problem sets can be specified by one of two file types:
 - As a text file: Basically, a listing of the exercise IDs, along with surrounding Latex
 - As a Latex file: Basically, a series of \ex specs, along with surrounding Latex
 
