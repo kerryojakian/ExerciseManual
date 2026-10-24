@@ -22,10 +22,10 @@ The giant data base of problems (in the file ExerciseData/ExerciseManual.tex) is
 The above LaTex file is a somewhat open to how it is written, but needs the following (as illustrated in the Example folder):
 - In the header, it must have the input command: \input{../ExerciseData/HeaderExerciseFileStandard.tex}, noting that the path is set assuming that when processing is desired, the file is put in the folder InputFilesDefault (see discussion below); or the path can be changed as desired.
 - The exercises should be placed within an enumerate environment.
-- The header should include the following six options, each of which can be commented out in order to make it not operational:    
+- The header should include the following five options, each of which can be commented out in order to make it not operational:    
 \def \showcodes{}, \def \showspace{}, \def \showsolutions{}, \def \showrubric{}, \def \showtags{} 
 
-A (slightly awkward) aspect this package is that for the creation of files, one typically copies the initial file to the folder InputFilesDefault, then after running the appropriate protocol, the result will be in the folder OutputFilesDefault. Thus for carrying out an operation, you need to move it to InputFilesDefault first (perhaps 
+A (slightly awkward) aspect of this package is that for the creation of files, one typically copies the initial file to the folder InputFilesDefault, then after running the appropriate protocol, the result will be in the folder OutputFilesDefault. Thus for carrying out an operation, you need to move the file to InputFilesDefault first (perhaps 
 from OutputFilesDefault).  This can all be avoided, as you are allowed to override where the programs read from and where they write to.
 
 ## Running MAIN.py
@@ -36,11 +36,11 @@ The options are as follows:
 
 > A. Integrity Check: Checks the exercise manual (or another file if desired) to see that it has no repeated IDs and also gives a count on the number of exercises.  In the future, I would envision doing more - checking that the entire file is structured properly.
 >
-> B. Convert text  ---> LaTex: Converts a text file with just exercise ideas to a LaTex file with the exercises filled in by reading the exercises from the exercise manual (or another file if desired).
+> B. Convert text  ---> LaTex: Converts a text file with just exercise IDs to a LaTex file with the exercises filled in by reading the exercises from the exercise manual (or another file if desired).
 >
 > C. Convert LaTex ---> text: Converts a LaTex file to a text file, so that the resulting text file is basically just a listing of the exercise IDs.
 >
-> D. Update latex: Updates the specified LaTex file with the current exercises from the exercise manual.  Thus, the intention is that exercises are always updated in the exercise manual, so it represents the most current version - some out of date exercise set is updated with this operation.
+> D. Update latex: Updates the specified LaTex file with the current exercises from the exercise manual.  Thus, the intention is that exercises are always updated in the exercise manual, so it represents the most current version; an out-of-date exercise set can be updated with this operation.
 >
 > E. Select exercises from exercise bank: By choosing a series of tags, you can choose a subset of the problems from the exercise manual.  This is useful, since the exercise manual is large, and growing.
 >
