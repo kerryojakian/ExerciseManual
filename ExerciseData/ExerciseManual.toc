@@ -1,0 +1,170 @@
+\contentsline {section}{\numberline {1}Introduction}{6}{section.1}%
+\contentsline {section}{\numberline {2}Numerical Stuff {\bf \textit {(N)}} }{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Theory {\bf \textit {(T)}} }{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Negatives and Absolute Value {\bf \textit {(NA)}} }{9}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Integer Arithmetic {\bf \textit {(AI)}} }{10}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Fraction Arithmetic {\bf \textit {(AF)}} }{12}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Order of Operations, and Exponents {\bf \textit {(OP)}} }{19}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}With Integers {\bf \textit {(I)}} }{19}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}With Fractions {\bf \textit {(F)}} }{23}{subsubsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.6}Numeric Word Problems {\bf \textit {(WP)}} }{25}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}Involving Integers {\bf \textit {(I)}} }{25}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}Word Problems Involving Fractions {\bf \textit {(F)}} }{26}{subsubsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.7}Exponents and Scientific Notation {\bf \textit {(ES)}} }{28}{subsection.2.7}%
+\contentsline {section}{\numberline {3}Functions {\bf \textit {(F)}} }{31}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Definition Issues {\bf \textit {(DEF)}} }{31}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Viewed as Relations {\bf \textit {(REL)}} }{31}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}One to One Functions {\bf \textit {(ONE)}} }{32}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Function Properties (increase, decrease, max, min) {\bf \textit {(PROP)}} }{34}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Basic Function Evaluation {\bf \textit {(E)}} }{37}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Function Evaluation From Table {\bf \textit {(ETAB)}} }{40}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Function Evaluation At Variable Input {\bf \textit {(EVAR)}} }{41}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}One Variable as Function of Other Variable {\bf \textit {(VAR)}} }{42}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Evaluation and Simplifying for Log/Exp {\bf \textit {(ELE)}} }{43}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}Log Properties {\bf \textit {(LP)}} }{45}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}Function Evaluation for Piece-wise Defined {\bf \textit {(PC)}} }{47}{subsection.3.11}%
+\contentsline {subsection}{\numberline {3.12}Evaluation (Mixed) {\bf \textit {(EM)}} }{48}{subsection.3.12}%
+\contentsline {subsection}{\numberline {3.13}Function Categorization {\bf \textit {(C)}} }{48}{subsection.3.13}%
+\contentsline {subsection}{\numberline {3.14}Basic Function Graphing {\bf \textit {(G)}} }{49}{subsection.3.14}%
+\contentsline {subsection}{\numberline {3.15}Finding Intercepts {\bf \textit {(INT)}} }{50}{subsection.3.15}%
+\contentsline {subsection}{\numberline {3.16}Parabola Basics {\bf \textit {(PB)}} }{50}{subsection.3.16}%
+\contentsline {subsection}{\numberline {3.17}Graphing Parabolas {\bf \textit {(GP)}} }{51}{subsection.3.17}%
+\contentsline {subsection}{\numberline {3.18}Detailed Function Graphing {\bf \textit {(GG)}} }{55}{subsection.3.18}%
+\contentsline {subsection}{\numberline {3.19}Find Domain {\bf \textit {(D)}} }{58}{subsection.3.19}%
+\contentsline {subsection}{\numberline {3.20}Find Zeroes {\bf \textit {(Z)}} }{62}{subsection.3.20}%
+\contentsline {subsection}{\numberline {3.21}Mixed: Domain and Zeroes {\bf \textit {(DZ)}} }{64}{subsection.3.21}%
+\contentsline {subsection}{\numberline {3.22}End Behavior and Basic Limits {\bf \textit {(LIM)}} }{65}{subsection.3.22}%
+\contentsline {subsection}{\numberline {3.23}Arithmetic On Functions {\bf \textit {(AR)}} }{67}{subsection.3.23}%
+\contentsline {subsection}{\numberline {3.24}Composition Of Functions {\bf \textit {(CP)}} }{69}{subsection.3.24}%
+\contentsline {subsection}{\numberline {3.25}Inverses {\bf \textit {(IN)}} }{72}{subsection.3.25}%
+\contentsline {subsection}{\numberline {3.26}Graph Transformations {\bf \textit {(TR)}} }{75}{subsection.3.26}%
+\contentsline {subsection}{\numberline {3.27}Function Applications {\bf \textit {(APP)}} }{79}{subsection.3.27}%
+\contentsline {subsection}{\numberline {3.28}Functions {\bf \textit {(MIXED)}} }{79}{subsection.3.28}%
+\contentsline {subsection}{\numberline {3.29}Functions with Domain/coDomain}{80}{subsection.3.29}%
+\contentsline {section}{\numberline {4}Algebra {\bf \textit {(A)}} }{83}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Translation {\bf \textit {(T)}} }{83}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Substitution {\bf \textit {(S)}} }{85}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Substitution With Integers {\bf \textit {(I)}} }{85}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Substitution word problems (with integers) {\bf \textit {(WI)}} }{85}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Substitution With Fractions {\bf \textit {(F)}} }{87}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}Substitution word problems (with fractions) {\bf \textit {(WF)}} }{88}{subsubsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.5}Substitution word problems (with radicals) {\bf \textit {(WR)}} }{88}{subsubsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.3}Simplifying {\bf \textit {(SY)}} }{89}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Simplifying with exponents {\bf \textit {(E)}} }{92}{subsubsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.4}Checking Solutions {\bf \textit {(CH)}} }{94}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Solving Equations (General Issues) {\bf \textit {(SG)}} }{94}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Solving Linear Equations {\bf \textit {(EL)}} }{96}{subsection.4.6}%
+\contentsline {subsubsection}{\numberline {4.6.1}Guess and Check {\bf \textit {(GC)}} }{96}{subsubsection.4.6.1}%
+\contentsline {paragraph}{\numberline {4.6.1.1}Guess and Check With Integer Solutions {\bf \textit {(I)}} }{96}{paragraph.4.6.1.1}%
+\contentsline {subsubsection}{\numberline {4.6.2}Solving Linear Equations With Integer Solutions {\bf \textit {(I)}} }{96}{subsubsection.4.6.2}%
+\contentsline {subsubsection}{\numberline {4.6.3}Linear Equations: Identity or Contraditiction {\bf \textit {(IC)}} }{98}{subsubsection.4.6.3}%
+\contentsline {subsubsection}{\numberline {4.6.4}Solving Linear Equations With Fractional Solutions {\bf \textit {(F)}} }{100}{subsubsection.4.6.4}%
+\contentsline {subsubsection}{\numberline {4.6.5}Solving Equations For Variable (in a linear way) {\bf \textit {(FM)}} }{100}{subsubsection.4.6.5}%
+\contentsline {subsubsection}{\numberline {4.6.6}Solving Linear Equations With Absolute Value {\bf \textit {(EAL)}} }{102}{subsubsection.4.6.6}%
+\contentsline {subsubsection}{\numberline {4.6.7}Solving Linear Equations With Function Symbol {\bf \textit {(FL)}} }{102}{subsubsection.4.6.7}%
+\contentsline {subsection}{\numberline {4.7}Lines {\bf \textit {(L)}} }{103}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Solving Linear Inequalities {\bf \textit {(NL)}} }{113}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Solving Linear Inequalities With Absolute Value {\bf \textit {(NAL)}} }{116}{subsection.4.9}%
+\contentsline {subsubsection}{\numberline {4.9.1}With integer solutions {\bf \textit {(I)}} }{116}{subsubsection.4.9.1}%
+\contentsline {subsection}{\numberline {4.10}Linear Equations In Two Variables {\bf \textit {(TVL)}} }{117}{subsection.4.10}%
+\contentsline {subsubsection}{\numberline {4.10.1}Checking pairs as solutions {\bf \textit {(C)}} }{117}{subsubsection.4.10.1}%
+\contentsline {subsubsection}{\numberline {4.10.2}Finding other variable value {\bf \textit {(OV)}} }{118}{subsubsection.4.10.2}%
+\contentsline {subsubsection}{\numberline {4.10.3}Finding solutions {\bf \textit {(FS)}} }{118}{subsubsection.4.10.3}%
+\contentsline {subsubsection}{\numberline {4.10.4}Graphing Linear Equations {\bf \textit {(GL)}} }{118}{subsubsection.4.10.4}%
+\contentsline {subsection}{\numberline {4.11}Polynomial basics {\bf \textit {(P)}} }{119}{subsection.4.11}%
+\contentsline {subsection}{\numberline {4.12}Polynomial Multiplication {\bf \textit {(PM)}} }{123}{subsection.4.12}%
+\contentsline {subsection}{\numberline {4.13}Factoring {\bf \textit {(F)}} }{129}{subsection.4.13}%
+\contentsline {subsubsection}{\numberline {4.13.1}By Factoring Out GCF {\bf \textit {(GCF)}} }{129}{subsubsection.4.13.1}%
+\contentsline {subsubsection}{\numberline {4.13.2}By Grouping {\bf \textit {(GP)}} }{130}{subsubsection.4.13.2}%
+\contentsline {subsubsection}{\numberline {4.13.3}By Difference Of Squares {\bf \textit {(DS)}} }{131}{subsubsection.4.13.3}%
+\contentsline {subsubsection}{\numberline {4.13.4}By Trinomials {\bf \textit {(TRI)}} }{132}{subsubsection.4.13.4}%
+\contentsline {subsubsection}{\numberline {4.13.5}By Some Method {\bf \textit {(ANY)}} }{135}{subsubsection.4.13.5}%
+\contentsline {subsection}{\numberline {4.14}Polynomial Division (Synthetic Division, etc) {\bf \textit {(PDIV)}} }{137}{subsection.4.14}%
+\contentsline {subsection}{\numberline {4.15}Solving Polynomial Equations {\bf \textit {(SP)}} }{140}{subsection.4.15}%
+\contentsline {subsubsection}{\numberline {4.15.1}Already Factored {\bf \textit {(FA)}} }{140}{subsubsection.4.15.1}%
+\contentsline {subsubsection}{\numberline {4.15.2}Solve by Factoring {\bf \textit {(F)}} }{141}{subsubsection.4.15.2}%
+\contentsline {subsubsection}{\numberline {4.15.3}Solve by Quadratic Equation {\bf \textit {(QE)}} }{143}{subsubsection.4.15.3}%
+\contentsline {subsubsection}{\numberline {4.15.4}Polynomial Intercepts with Theory {\bf \textit {(PT)}} }{144}{subsubsection.4.15.4}%
+\contentsline {subsubsection}{\numberline {4.15.5}Solve Using Rational Zeroes Theorem, etc {\bf \textit {(RZ)}} }{145}{subsubsection.4.15.5}%
+\contentsline {subsection}{\numberline {4.16}Graphing Polynomials {\bf \textit {(PG)}} }{145}{subsection.4.16}%
+\contentsline {subsection}{\numberline {4.17}Radicals and Rational Exponents}{147}{subsection.4.17}%
+\contentsline {subsubsection}{\numberline {4.17.1}Simplifying Radicals {\bf \textit {(SR)}} }{147}{subsubsection.4.17.1}%
+\contentsline {subsubsection}{\numberline {4.17.2}Radicals versus Rational Exponents {\bf \textit {(RRE)}} }{151}{subsubsection.4.17.2}%
+\contentsline {subsubsection}{\numberline {4.17.3}Simplifying Rational Exponents {\bf \textit {(SRE)}} }{154}{subsubsection.4.17.3}%
+\contentsline {subsubsection}{\numberline {4.17.4}Multiplying: Radicals and Rational Exponents {\bf \textit {(MR)}} }{156}{subsubsection.4.17.4}%
+\contentsline {subsubsection}{\numberline {4.17.5}Dividing: Radicals and Rational Exponents {\bf \textit {(DR)}} }{158}{subsubsection.4.17.5}%
+\contentsline {subsubsection}{\numberline {4.17.6}Adding and Subtracting: Radicals {\bf \textit {(ASR)}} }{160}{subsubsection.4.17.6}%
+\contentsline {subsubsection}{\numberline {4.17.7}Radicals: Combining Arithmetic Operations {\bf \textit {(CR)}} }{161}{subsubsection.4.17.7}%
+\contentsline {subsubsection}{\numberline {4.17.8}Solving Radical equations {\bf \textit {(SR)}} }{164}{subsubsection.4.17.8}%
+\contentsline {subsubsection}{\numberline {4.17.9}Complex Numbers (Imaginary Numbers) {\bf \textit {(IM)}} }{167}{subsubsection.4.17.9}%
+\contentsline {subsection}{\numberline {4.18}Rational Expressions {\bf \textit {(RE)}} }{170}{subsection.4.18}%
+\contentsline {subsubsection}{\numberline {4.18.1}Simplifying Rational Expressions {\bf \textit {(SP)}} }{170}{subsubsection.4.18.1}%
+\contentsline {subsubsection}{\numberline {4.18.2}When Undefined or Equal to Zero {\bf \textit {(UZ)}} }{171}{subsubsection.4.18.2}%
+\contentsline {subsubsection}{\numberline {4.18.3}Multiplying Rational Expressions {\bf \textit {(MR)}} }{172}{subsubsection.4.18.3}%
+\contentsline {subsubsection}{\numberline {4.18.4}Dividing Rational Expressions {\bf \textit {(DR)}} }{173}{subsubsection.4.18.4}%
+\contentsline {subsubsection}{\numberline {4.18.5}Adding and Subtracting Rational Expressions {\bf \textit {(ASR)}} }{175}{subsubsection.4.18.5}%
+\contentsline {subsubsection}{\numberline {4.18.6}Rational Expressions - Complex {\bf \textit {(CPX)}} }{177}{subsubsection.4.18.6}%
+\contentsline {subsubsection}{\numberline {4.18.7}Solving Rational Equations {\bf \textit {(S)}} }{178}{subsubsection.4.18.7}%
+\contentsline {subsubsection}{\numberline {4.18.8}Rational Functions : Limits and Asymptotes {\bf \textit {(ASYM)}} }{180}{subsubsection.4.18.8}%
+\contentsline {subsection}{\numberline {4.19}Log and Exponentials {\bf \textit {(LE)}} }{181}{subsection.4.19}%
+\contentsline {subsubsection}{\numberline {4.19.1}Graphing Log and Exponential {\bf \textit {(G)}} }{181}{subsubsection.4.19.1}%
+\contentsline {subsubsection}{\numberline {4.19.2}Solving Log and Exponential Equations {\bf \textit {(SLE)}} }{181}{subsubsection.4.19.2}%
+\contentsline {subsection}{\numberline {4.20}Word problems (algebra) {\bf \textit {(WP)}} }{184}{subsection.4.20}%
+\contentsline {subsubsection}{\numberline {4.20.1}Word problems using linear equations {\bf \textit {(L)}} }{184}{subsubsection.4.20.1}%
+\contentsline {subsubsection}{\numberline {4.20.2}Word problems with linear IN-equalities {\bf \textit {(NL)}} }{188}{subsubsection.4.20.2}%
+\contentsline {subsubsection}{\numberline {4.20.3}Word problems using polynomial equations {\bf \textit {(P)}} }{189}{subsubsection.4.20.3}%
+\contentsline {section}{\numberline {5}Trigonmetry {\bf \textit {(T)}} }{190}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Angle Conversions {\bf \textit {(C)}} }{190}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Arclength {\bf \textit {(A)}} }{192}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Sector {\bf \textit {(SEC)}} }{192}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Trig Functions On Triangle {\bf \textit {(FT)}} }{193}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Finding Missing Side Of Triangle {\bf \textit {(M)}} }{195}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}Using Just Pythagorean Theorem {\bf \textit {(PY)}} }{195}{subsubsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.2}Using Trig {\bf \textit {(TR)}} }{196}{subsubsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.3}Trig Right Angle Word Problems {\bf \textit {(W)}} }{197}{subsubsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.6}Angles and Standard Position {\bf \textit {(ST)}} }{198}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Evaluating Trig Functions Beyond Triangle {\bf \textit {(F)}} }{200}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}Graphing Trig Functions {\bf \textit {(G)}} }{201}{subsection.5.8}%
+\contentsline {subsection}{\numberline {5.9}Trig Inverses {\bf \textit {(INV)}} }{203}{subsection.5.9}%
+\contentsline {subsection}{\numberline {5.10}Trig Identities {\bf \textit {(ID)}} }{204}{subsection.5.10}%
+\contentsline {subsection}{\numberline {5.11}Trig Equations {\bf \textit {(EQ)}} }{206}{subsection.5.11}%
+\contentsline {subsection}{\numberline {5.12}Trig Function Concepts {\bf \textit {(CON)}} }{207}{subsection.5.12}%
+\contentsline {section}{\numberline {6}Discrete Math {\bf \textit {(DISC)}} }{207}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Propositional Logic}{209}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Truth Tables}{211}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Tautologies and Contradictions}{212}{subsubsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.3}Propositional Logic Equivalence}{213}{subsubsection.6.1.3}%
+\contentsline {subsubsection}{\numberline {6.1.4}Propositional Logic Applications}{214}{subsubsection.6.1.4}%
+\contentsline {subsection}{\numberline {6.2}Algorithms and Programming}{216}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Quantifiers and Predicates}{219}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Sets}{222}{subsection.6.4}%
+\contentsline {subsubsection}{\numberline {6.4.1}Proofs with Sets}{225}{subsubsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.5}Number Bases}{226}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Basic Number Theory}{227}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Modular Arithmetic}{228}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Cryptography}{228}{subsection.6.8}%
+\contentsline {subsection}{\numberline {6.9}Basic Counting}{230}{subsection.6.9}%
+\contentsline {subsection}{\numberline {6.10}Combinations and Permutations}{231}{subsection.6.10}%
+\contentsline {subsection}{\numberline {6.11}Basic Discrete Probability}{232}{subsection.6.11}%
+\contentsline {subsection}{\numberline {6.12}Recursive Definitions}{233}{subsection.6.12}%
+\contentsline {subsection}{\numberline {6.13}Recursive Programs}{236}{subsection.6.13}%
+\contentsline {subsection}{\numberline {6.14}Relations}{237}{subsection.6.14}%
+\contentsline {subsubsection}{\numberline {6.14.1}Equivalence Relations}{238}{subsubsection.6.14.1}%
+\contentsline {subsubsection}{\numberline {6.14.2}Posets}{238}{subsubsection.6.14.2}%
+\contentsline {subsubsection}{\numberline {6.14.3}More Relations}{239}{subsubsection.6.14.3}%
+\contentsline {subsection}{\numberline {6.15}Graph Theory}{240}{subsection.6.15}%
+\contentsline {subsubsection}{\numberline {6.15.1}Basics}{240}{subsubsection.6.15.1}%
+\contentsline {subsubsection}{\numberline {6.15.2}Paths, Trails, Walks}{245}{subsubsection.6.15.2}%
+\contentsline {subsubsection}{\numberline {6.15.3}Trees}{247}{subsubsection.6.15.3}%
+\contentsline {subsection}{\numberline {6.16}Proofs}{251}{subsection.6.16}%
+\contentsline {subsubsection}{\numberline {6.16.1}Propositional Proofs}{251}{subsubsection.6.16.1}%
+\contentsline {subsubsection}{\numberline {6.16.2}Basic Proofs}{253}{subsubsection.6.16.2}%
+\contentsline {subsubsection}{\numberline {6.16.3}Inductive Proofs}{257}{subsubsection.6.16.3}%
+\contentsline {subsubsection}{\numberline {6.16.4}Recursive Proofs}{259}{subsubsection.6.16.4}%
+\contentsline {section}{\numberline {7}Statistics {\bf \textit {(STAT)}} }{260}{section.7}%
+\contentsline {section}{\numberline {8}Linear Algebra}{261}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Matrix Terminology}{261}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Matrix Addition}{262}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Matrix Multiplication}{262}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Neural Net Applications of Matrices}{263}{subsection.8.4}%
+\contentsline {section}{\numberline {9}UNCATAGORIZED {\bf \textit {(XXX)}} }{264}{section.9}%

@@ -1,0 +1,69 @@
+\documentclass[12pt]{article}
+
+% PAGE FORMAT
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.5in
+\textheight 8.5in
+\topmargin -0.25in
+
+% FOR TOGGLING ON CHOICES OF WHAT TO PRINT
+%\def \showcodes{}     % Comment out to NOT see codes
+\def \showspace{}     % Comment out to NOT have space after problems.
+%\def \showsolutions{} % Comment out to NOT see solutions
+%\def \showrubric{}     % Comment out to NOT see grading rubric
+% NOTE: showsolutions negates effects of: showrubric and showspace
+% NOTE: showrubric negates effects of: showspace
+\input{C:/Users/Kerry/Dropbox/MY_STUFF/MY_MATERIALS/Programs/Python/ExerciseManual/ExerciseData/HeaderExerciseFileStandard.tex}   % KEY HEADER FILE
+  % KEY HEADER FILE
+
+
+\begin{document}
+
+\noindent
+{\textbf{Group Work \# .....}}\\
+\textbf{Kerry Ojakian's BLANK Class} \\ 
+\textbf{Names of Group Members (first and last):} \\ 
+
+
+\noindent
+{\bf General Instructions:} 
+\begin{itemize}
+
+\item You may work in a group of {\bf at most 3 students}.
+
+\item Hand in {\bf one} assignment for your group; write each group member's full name on the assignment.
+
+%\item Work on your own and hand in your own work without copying from anyone or anything.
+
+\end{itemize} 
+
+\noindent \\
+{\bf The Assignment}
+
+
+\begin{enumerate}
+
+
+\putProb{...}
+
+
+
+\end{enumerate}
+\end{document} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+% *****************************************************************
+% INCLUDE THE FOLLOWING IN ALL CLASS WORK, HOME WORK, TESTS
+% *****************************************************************
+
+% PACKAGES
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{ifthen}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{positioning}
+\usepackage{pgfplots}
+%\usepackage{C:/Users/Kerry/Dropbox/MY_STUFF/MY_MATERIALS/Programs/Python/ExerciseManual/ExerciseData/cancel}
+\usepackage{cancel}
+
+% COMMANDS
+%\renewcommand{\labelenumi}{\alph{enumi})} % To make enumerates use letters
+\newcommand{\im}{\ensuremath{\mathbf{i}}} % For imaginary ``i''
+\newcommand{\code}[1]{ {\underline{\textsc(#1)}} } % For coding problems
+\newcommand{\ans}[2]{{\bf Answer: } \framebox(#1,#2){} } % For making answer box
+
+%For commenting out
+\newcommand{\junk}[1]{}
+
+
+
+% Command for inserting solution figure
+\newcommand{\solfig}[1]{
+\begin{figure}[H] 
+    \centering
+    \includegraphics[scale=.7]{C:/Users/Kerry/Dropbox/MY_STUFF/MY_MATERIALS/Programs/Python/ExerciseManual/ExerciseData/FigsSolutions/SOLUTIONxxx#1.pdf} 
+\end{figure}
+}
+
+
+% KEY EXERCISE COMMAND: 6 ARGUMENTS -
+% #1: Code
+% #2: Amount of space for student work
+% #3: The actual exercise text
+% #4: Solution (I expect this to usually link to PDF figure)
+% #5: Grading Rubric (I expect this to usually link to PDF figure which is mofication of solution)
+% #6: Database Tags
+\newcommand{\ex}[6]
+{
+\begin{minipage}{\textwidth}
+\item
+	\ifdefined \showcodes      % Display code (#1) if variable is on.
+		#1 \\ 
+	\fi
+	\ifdefined \showtags        % Display database tags (#6) if variable is on.
+	    #6 \\
+   \fi
+	#3                                  % Always show the problem (#3)
+	\ifdefined \showsolutions   % Show solution if variable (#4) is on
+
+		\vspace{2mm}
+		SOLUTION.
+		\vspace{2mm}
+		#4
+		\vspace{2mm}
+	\else
+		\ifdefined \showrubric    % Show rubric if variable (#5) on and NOT showing solutions
+			#5 
+		\else
+			\ifdefined \showspace  % Give space if variable (#2) on and NOT showing solutions, nor rubric
+				\vspace{#2 mm} 
+			\fi
+		\fi
+	\fi
+	\vspace{2mm}                   % Always have ending delimiter
+	\hrule
+	\vspace{2mm}
+\end{minipage}
+}
+

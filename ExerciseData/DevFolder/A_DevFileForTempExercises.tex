@@ -1,0 +1,559 @@
+% DATABASE_START
+% {type[cat]: LECTURE CLASS HW TEST GROUP } 
+% {diff[cat]: EASY  MEDIUM  HARD CREATIVE }
+% 
+% {topics[binary]:  ALG  CRYPTO DEF  DISC  DOM  EVAL  EXP  FRAC  FUNCT  
+% GRAPH GRAPHTHEORY INDUCTION INT     INVERSE  LOG  MATRIX MODARITH NUM NUMBASE NUMTHY PROG  PROOF  PROPLOGIC  PYTHON QUANT  RANGE  RAD  RECURSIVE RELATION  SET TREE TRIG  WORD } 
+% DATABASE_END
+
+
+
+
+\documentclass[12 pt]{article}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6in
+\textheight 9.5in
+\topmargin -0.55in
+
+\setcounter{secnumdepth}{4}
+
+% COMMANDS FOR EXERCISE MANUAL
+\renewcommand{\labelenumi}{\alph{enumi})} % To make enumerates use letters
+\newcommand{\topic}[1]{ {\bf \textit{(#1)}} }
+
+
+\renewcommand{\labelenumi}{\alph{enumi})} % To make enumerates use letters
+
+% DATABASE STRUCTURE
+% type:[CLASS, HW, TEST, GROUP], 
+% diff:[EASY, MEDIUM, HARD, CREATIVE]
+% cat1:[NUMB, FUNCT, ALG, TRIG, DISC]
+
+
+% FOR TOGGLING ON CHOICES OF WHAT TO PRINT
+\def \showcodes{}     % Comment out to NOT see codes
+\def \showspace{}     % Comment out to NOT have space after problems.
+%\def \showsolutions{} % Comment out to NOT see solutions
+%\def \showrubric{}     % Comment out to NOT see grading rubric
+\def \showtags{} % Comment out to NOT see tags
+% NOTE: showsolutions negates effects of: showrubric and showspace
+% NOTE: showrubric negates effects of: showspace
+\input{../HeaderExerciseFileStandard.tex}  % KEY HEADER FILE
+
+
+
+\title {\bf Exercises In Development}
+\author {Kerry Ojakian}
+%\date{}
+\begin{document}
+\maketitle
+
+
+\tableofcontents
+\newpage
+
+\section{Development Problems}
+
+{\bf This file is for the TEMPORARY storage of exercises while development them!  The main file is so big that it takes almost a minute just to compile.  So they can be repeatedly compiled here, and when ready cut into the main file. }
+
+
+\begin{itemize}
+
+
+\section{Statistics \topic{STAT}}
+
+
+\ex
+{\code{26x09x25x001}}{45}
+{
+Consider the following data (already in order from smallest to biggest):
+$$2, \ \ \  3,  \ \ \  3,  \ \ \  6,  \ \ \  7,  \ \ \  10, \ \ \  11$$
+
+\begin{enumerate}
+
+\item
+Find the second quartile (i.e. median). 
+
+\item
+Find the first quartile.  
+
+\item
+Find the third quartile.
+
+\item
+Find the range, and the interquartile range.
+
+\item
+Draw a box plot.
+
+\end{enumerate}
+
+}
+{
+NO SOLUTION
+
+}{}{type: TEST , topics: STAT}
+
+
+
+ \ex
+{\code{26x09x21x001}}{40}
+{  
+Suppose someone rolls a 10-sided die with sides labeled by the integers from $10$ to $19$.
+
+\begin{enumerate}
+
+\item Write down the sample space.
+
+\item Let $A$ be the event of rolling an even number.  Write down the event in set notation.
+What is the probability of $A$?
+
+\item Let $X$ be the event of rolling an number less than 14.  Write down the event in set notation.
+What is the probability of $X$?
+
+\end{enumerate}
+
+} {
+
+
+
+} {}{topic: STAT} 
+
+
+ \ex
+{\code{26x09x21x002}}{50}
+{  
+Suppose a dealer draws a single card from a standard deck of cards.
+
+\begin{enumerate}
+
+\item What is the size of  the sample space?
+
+\item Let $E$ be the event of drawing a 5 or 7 of any suit.
+Write down the event in set notation.
+What is the probability of $E$?
+
+\item What is the probability of drawing a heart whose value is between 5 and 10, \emph{inclusive}?
+
+\item What is the probability of drawing a heart whose value is between 5 and 10, \emph{exclusive}?
+
+
+\end{enumerate}
+
+} {
+
+} {}{topic: STAT} 
+
+
+ \ex
+{\code{26x09x21x003}}{40}
+{  
+Suppose we have two 3-sided dice, where for each die its sides are labelled by $A, B, C$.
+
+\begin{enumerate}
+
+\item Write down the sample space in set notation.
+
+\item Let $X$ be the event of having both dice having the same value.
+Write down the event in set notation.
+What is the probability of $X$?
+
+\item Let $Y$ be the event of having both dice being consonants.
+Write down the event in set notation.
+What is the probability of $Y$?
+
+
+\end{enumerate}
+
+} {
+NO SOLUTION
+
+} {}{topic: STAT} 
+
+
+
+
+
+
+\section{Classes Python \topic{??}}
+
+%\subsection{Put ... \topic{T}} 
+ 
+ 
+ 
+ \ex
+{\code{26x09x02x003}}{5}
+{
+Write a class BiasedCoin in Python to mimic a coin that be flipped, and turn up Heads or Tails, but it is heads with some probability $p$ and Tails with probability $1 - p$.  It should have the 
+following methods:
+1) Its constructor should take in a probability $p$.
+2) flip(): flips the coin to randomly, putting the coin into the state Heads of Tails, depending on the probability
+3) get() returns the current state of the coin.
+
+
+} {
+NO SOLUTION
+
+} {}{NOTAGS} 
+ 
+ 
+ \ex
+{\code{26x09x02x001}}{5}
+{  
+MODIFY!
+
+Suppose you have the class BiasedCoin which mimics a coin that be flipped, and turn up Heads or Tails, but it is heads with some probability $p$ and Tails with probability $1 - p$.  It has the 
+following methods:
+1) Its constructor should take in a probability $p$.
+2) flip(): flips the coin to randomly, putting the coin into the state Heads of Tails, depending on the probability
+3) get() returns the current state of the coin.
+
+Use this class to write a program to simulate blah ....
+
+
+} {
+NO SOLUTION
+
+} {}{topic: PYTHON CLASSES} 
+
+
+
+
+
+
+\ex
+{\code{26x10x07x001}}{45}
+{
+Suppose $S$ is a Stack that starts out empty.  Describe $S$ after the following sequence of Stack operations are performed, showing what happens at each step 
+(clearly indicate the top of the Stack):
+\begin{quote}
+S.push(5),  S.push(3),  S.push(5), S.pop(), S.push(3), S.pop()
+\end{quote}
+
+}
+{
+
+}{}{topics: PROG}
+
+
+\ex
+{\code{26x10x07x002}}{60}
+{
+Consider a stack for checking if a string has its parentheses matching correctly (as discussed in class).  For the following strings indicate if its parentheses are matched correctly or not.  Then show every modification to the stack that the algorithm would go through.
+
+\begin{enumerate}
+
+\item $( ) \{  [  ] \}$
+
+\item $[  A ( B \{  C  C  \} D  )  E E   [ ] $
+
+\item $\{  4 *  [ 7 \div  ( 1 + 1  )  ] - [ 4 * (  8 + 7  \} ] \}$
+
+\end{enumerate}
+
+}
+{
+NO SOLUTION
+
+}{}{topics: PROG}
+
+
+
+\ex
+{\code{26x10x07x004}}{65}
+{
+Create your own example of a context free grammar.  Then create at least 2 different valid sentences from your grammar, \emph{showing the usage of a stack}.
+
+}
+{
+NO SOLUTION
+
+}{}{topics: PROG}
+
+
+
+
+\ex
+{\code{26x10x07x003}}{65}
+{
+\begin{enumerate}
+
+\item
+Evaluate the following {\bf postfix} experession, showing all steps \emph{using a stack} (you will get no credit for simply giving the answer):
+$$ 5  \ \ \  2  \ \ \  *  \ \ \  8  \ \ \  2  \ \ \  /  \ \ \  +$$
+
+
+
+\item
+Evaluate the following {\bf prefix} experession, showing all steps \emph{using a stack} (you will get no credit for simply giving the answer):
+
+$$  * \ \ \ + \ \ \ * \ \ \ 4 \ \ \  5 \ \ \ 1 \ \ \ - \ \ \ 2  \ \ \ 3  $$
+
+\item For each of the above find an equivalent infix expression: The answer final number should be the same, and the series of calculations should also be identical.
+
+\end{enumerate}
+
+
+
+}
+{
+NO SOLUTION
+
+}{}{topics: DISC}
+
+
+
+
+\section{Discrete}
+
+
+ \ex
+{\code{DISCx26x10x13x002}}{10}
+{
+Calulate the following. 
+
+\begin{enumerate}
+
+\item
+$5!$
+
+\item
+$C(7, 2)$
+
+\item
+$\dfrac{C(5, 2)}{C(5,3)}$
+
+\end{enumerate}
+
+}{
+
+
+}{}{type: HW}
+
+
+ \ex
+{\code{DISCx26x10x13x001}}{25}
+{
+Suppose there are 6 people in a room.  
+
+\begin{enumerate}
+
+\item
+How many ways can you select a group of 3 of them?
+
+\item
+How many ways can you arrange all 6 people in a row?
+
+\end{enumerate}
+
+}{
+
+
+}{}{type: HW}
+
+
+ \ex
+{\code{DISCx26x10x13x003}}{40}
+{
+Consider all the 4 letter words you can make from the 5 vowels (i.e. A, E, I, O, U).
+
+\begin{enumerate}
+
+\item
+What is the probability that your 4 letter word contains only A's and U's?
+
+\item
+What is the probability that your 4 letter word does {\bf not} contain any E's?
+
+
+\item
+What is the probability that your 4 letter word does contains at least one E?
+
+
+\end{enumerate}
+
+}{
+
+
+}{}{type: HW}
+
+
+
+
+
+ \ex
+{\code{DISCx26x10x13x004}}{60}
+{
+A jar contains 3 red marbles, 4 blue marbles, and 5 yellow marbles.
+
+\begin{enumerate}
+
+\item Suppose you take 2 marbles, \emph{with replacement}.  
+What is the probability that you take a red one first, and a yellow one second?
+
+\item Suppose you take 2 marbles, \emph{without replacement}
+What is the probability that you take a red one first, and a yellow one second?
+
+
+\item  Suppose you take 3 marbles, without replacement.  What is the probability that all are red?
+
+\item  Suppose you take 3 marbles, without replacement.  What is the probability that none are red?
+
+\item  Suppose you take 3 marbles, without replacement.  What is the probability that at least one is red?
+
+\end{enumerate}
+
+
+}{
+
+
+}{}{type: HW}
+
+
+
+\section{Discrete Probability}
+
+ \ex
+{\code{DISCx26x10x19x001}}{25}
+{
+Suppose you choose a 4 letter word at random. 
+\begin{enumerate}
+
+\item What is the probability that it is CUNY?
+
+\item
+ What is the probability that it starts with a Z?
+
+
+
+\end{enumerate}
+
+
+}{
+
+
+}{}{type: CLASS}
+
+
+ \ex
+{\code{DISCx26x10x19x002}}{30}
+{
+Suppose there are 6 people in a room, named Ace, Bob, Cob, Dog, Ell, and Foo.
+You choose 3 of them at random. 
+\begin{enumerate}
+
+\item What is the probability that you choose Ace, Dog, and Ell?
+
+\item
+ What is the probability that Cob is among your choices?
+
+
+
+\end{enumerate}
+
+
+}{
+
+
+}{}{type: CLASS}
+
+
+ \ex
+{\code{DISCx26x10x19x003}}{25}
+{
+Suppose there is a race with 6 runners, and Mary is one of the runners.
+\begin{enumerate}
+
+\item What is the probability that Mary is in first place?
+
+\item
+ What is the probability that Mary is {\bf not} in first place?
+
+
+
+\end{enumerate}
+
+
+}{
+
+
+}{}{type: CLASS}
+
+
+
+ \ex
+{\code{DISCx26x10x19x004}}{30}
+{
+Suppose you are dealt a 2 card blackjack hand from a standard deck of 52 cards
+\begin{enumerate}
+
+\item
+ What is the probability that both cards are aces?
+
+\item 
+ What is the probability that both cards are hearts?
+
+
+
+\end{enumerate}
+
+
+}{
+
+
+}{}{type: CLASS}
+
+
+
+ \ex
+{\code{DISCx26x10x19x005}}{30}
+{
+Suppose you are dealt a 5 card poker hand from a standard deck of 52 cards
+(you may leave your answer unevaluated, but show your work).
+\begin{enumerate}
+
+\item
+ What is the probability that all the cards are red?
+
+\item 
+ What is the probability that both you have no kings?
+
+
+
+\end{enumerate}
+
+
+}{
+
+
+}{}{type: CLASS}
+
+
+
+
+
+% FINAL END OF LIST
+\end{itemize}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+

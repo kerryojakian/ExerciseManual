@@ -1,0 +1,57 @@
+\documentclass[12pt]{article}
+
+% PAGE FORMAT
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.5in
+\textheight 8.5in
+\topmargin -0.25in
+
+% FOR TOGGLING ON CHOICES OF WHAT TO PRINT
+\def \showcodes{}     % Comment out to NOT see codes
+\def \showtags{} % Comment out to NOT see tags
+%\def \showspace{}     % Comment out to NOT have space after problems.
+%\def \showsolutions{} % Comment out to NOT see solutions
+%\def \showrubric{}     % Comment out to NOT see grading rubric
+% NOTE: showsolutions negates effects of: showrubric and showspace
+% NOTE: showrubric negates effects of: showspace
+\input{../ExerciseData/HeaderExerciseFileStandard.tex}   % KEY HEADER FILE
+
+
+\begin{document}
+
+\noindent
+{\Large \textbf{Database Results}}\\
+
+%***PUT QUERY***
+
+\noindent \\
+{\bf The Problems}
+
+
+
+\begin{enumerate}
+
+
+%***PUT PROBLEMS***
+
+
+
+\end{enumerate}
+\end{document} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

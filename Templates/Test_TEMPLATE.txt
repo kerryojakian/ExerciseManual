@@ -1,0 +1,81 @@
+\documentclass[12pt]{article}
+
+% PAGE FORMAT
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.5in
+\textheight 8.5in
+\topmargin -0.25in
+
+% FOR TOGGLING ON CHOICES OF WHAT TO PRINT
+%\def \showcodes{}     % Comment out to NOT see codes
+\def \showspace{}     % Comment out to NOT have space after problems.
+%\def \showsolutions{} % Comment out to NOT see solutions
+%\def \showrubric{}     % Comment out to NOT see grading rubric
+% NOTE: showsolutions negates effects of: showrubric and showspace
+% NOTE: showrubric negates effects of: showspace
+\input{C:/Users/Kerry/Dropbox/MY_STUFF/MY_MATERIALS/Programs/Python/ExerciseManual/ExerciseData/HeaderExerciseFileStandard.tex}   % KEY HEADER FILE
+   % KEY HEADER FILE
+
+
+
+\begin{document}
+
+
+ \begin{center}
+\textbf{
+{\large BRONX COMMUNITY COLLEGE}\\
+      of the City University of New York\\
+\vspace{4mm}
+DEPARTMENT OF MATHEMATICS AND COMPUTER SCIENCE}
+\end{center}
+COURSE???  \hfill Exam NUM?? \\
+Kerry Ojakian \hfill FALL/SPRING YEAR \\
+{\bf YOUR NAME }(first, then last):
+
+\begin{center}
+  \begin{tabular}{|c|}
+  \hline
+  \vspace{.05mm}\\
+  \parbox[t]{6in}{{\large \textbf{Directions:}} 
+Write your responses in the provided space.  To get full credit you
+    {\bf must} show all your work.  Simplify your answers whenever possible.  Be certain to indicate your final answer clearly. {\bf No} electronic devices are allowed  (i.e. no calculators, no phones, no smart watches, etc) - using one during the exam will result in at least a failure on this test.
+Each question is worth {\bf BLAH} points. }\\
+  \vspace{.05mm}\\
+  \hline
+\end{tabular}
+\end{center}
+
+\begin{enumerate}
+
+\putProb{...}
+
+
+
+\end{enumerate}
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
