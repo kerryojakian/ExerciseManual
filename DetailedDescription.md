@@ -29,7 +29,9 @@ from OutputFilesDefault).  This can all be avoided, as you are allowed to overri
 
 ## Running MAIN.py
 
-When MAIN.py is executed it offers a menu of options, and continues to execute until you opt to quit.  The options are as follows:
+When MAIN.py is executed it offers a menu of options, and continues to execute until you opt to quit.  
+See the file "Console_Interaction_Example.pdf" for an example of a console interaction.
+The options are as follows:
 
 > A. Integrity Check: Checks the exercise manual (or another file if desired) to see that it has no repeated IDs and also gives a count on the number of exercises.  In the future, I would envision doing more - checking that the entire file is structured properly.
 >
